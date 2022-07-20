@@ -1,0 +1,26 @@
+.divUnderTextarea {
+  display: flex;
+  margin-top: 5px;
+}
+.warningsDiv {
+  color: red;
+  margin: 10px 0;
+}
+.contactDiv {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .divUnderTextarea {
+    flex-direction: column;
+  }
+  .divUnderTextarea button {
+    margin: 10px 0 0 0;
+  }
+  .divUnderTextarea input {
+    margin: 10px 0 0 0;
+  }
+}

@@ -1,0 +1,14 @@
+.warningText {
+  color: red;
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+}
+.warningText p {
+  margin: 10px 20px;
+}
+@media only screen and (max-width: 1000px) {
+  .warningText {
+    justify-content: center;
+  }
+}

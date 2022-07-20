@@ -1,0 +1,11 @@
+textarea {
+  resize: none;
+  height: 40vh;
+  width: 600px;
+  font-size: 18px;
+}
+@media only screen and (max-width: 1000px) {
+  textarea {
+    width: 400px;
+  }
+}

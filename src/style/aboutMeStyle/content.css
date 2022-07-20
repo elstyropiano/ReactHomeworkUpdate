@@ -1,0 +1,36 @@
+.description {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px;
+}
+.divImageAboutMe img {
+  min-width: 673px;
+}
+.divImageAboutMe {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  justify-content: center;
+}
+.imageAndDecription {
+  box-sizing: border-box;
+  display: flex;
+  height: 60vh;
+  margin: 50px 0;
+  padding: 0 40px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .imageAndDecription {
+    flex-direction: column;
+  }
+  .divImageAboutMe img {
+    max-width: 400px;
+    min-width: 400px;
+  }
+}

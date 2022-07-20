@@ -1,0 +1,23 @@
+.divForDeleteButtonFromList {
+  display: inline-block;
+  height: inherit;
+  vertical-align: bottom;
+}
+li button {
+  background-color: red;
+  margin: 0 10px;
+}
+li {
+  margin: 20px 0;
+}
+.listTodo {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  width: 80vw;
+  word-break: break-word;
+  align-items: center;
+}
+.simpleListElement {
+  width: 100%;
+}
